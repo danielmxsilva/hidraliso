@@ -118,10 +118,113 @@ footer .footer-right .wraper-left{
 
 /***FINAL ARQUIVO INDEX***/
 
+/**PÁGINA HOME**/
+
+.bg-header{
+	width: 100%;
+	background-color: #46125F;
+	background-image: url('../img/header/header-2.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.bg-header .container{
+	position: relative;
+}
+
+.home-header .w50 img{
+	max-width: 150px;
+	transform: rotate(8deg);
+}
+
+.home-header .flex-box{
+	padding-top: 60px;
+}
+
+.home-header .w50{
+	color: white;
+}
+
+.home-header .w50:nth-of-type(1){
+	padding: 10px 30px 0 150px;
+	width: 60%;
+}
+
+.home-header .w50:nth-of-type(2){
+	width: 40%;
+}
+
+.home-header .w50 i{
+	color: #75ff75;
+}
+
+.home-header .w50 h2{
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.home-header .w50 p{
+	font-size: 14px;
+}
+
+.span-home{
+	color: var(--rosa);
+	text-decoration: underline;
+}
+
+.lista-header{
+	margin: 20px 0 40px 0;
+}
+
+.lista-header div{
+	margin: 15px 0;
+}
+
+.lista-header i{
+	margin-right: 5px;
+}
+
+.btn-rosa{
+	display: inline-block;
+}
+
+.btn-rosa a{
+	border-radius: 30px;
+	background-color: var(--rosa);
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	transition: 0.2s;
+}
+
+.btn-rosa:hover a{
+	background-color: #dd1569;
+}
+
+.logo-home{
+	position: absolute;
+	right: 0;
+	bottom: -110px;
+}
+
+.logo-home img{
+	max-width: 130px;
+}
+
+/***FINAL PÁGINA HOME***/
+
 @media screen and (max-width: 980px){
 
 	footer .footer-center img{
 		max-width: 240px;
+	}
+}
+
+@media screen and (max-width: 880px){
+	.home-header .w50:nth-of-type(1){
+		padding: 0;
 	}
 }
 
@@ -150,4 +253,33 @@ footer .footer-right .wraper-left{
 		margin: 10px auto;
 		display: block;
 	}
+}
+
+@media screen and (max-width: 640px){
+
+	.bg-header{
+		background-size: cover;
+		background-position: center;
+		height: 780px;
+	}
+
+	.logo-home{
+		display: none;
+	}
+
+	.home-header .w50:nth-of-type(1){
+		width: 100%;
+	}
+
+	.home-header .w50:nth-of-type(2){
+		width: 100%;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.home-header .flex-box{
+		padding-top: 40px;
+		text-align: center;
+	}
+
 }
