@@ -2,4 +2,152 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+:root{
+	--roxo: #6d4091;
+	--rosa: #e72375;
+	--amarelo: #ffcf00;
+	--cinza: #bfbfbf;
+}
+
+.flex-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.w33{
+	width: 33.3%;
+}
+
+.w50{
+	width: 50%;
+}
+
+.w100{
+	width: 100%;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+/***FINAL FRAMEWORK***/
+
+/***ARQUIVO INDEX***/
+
+header{
+	width: 100%;
+	background-color: var(--roxo);
+	padding: 10px 0;
+	text-align: center;
+}
+
+header img{
+	max-width: 80px;
+}
+
+footer{
+	background-color: var(--roxo);
+	background-image: linear-gradient(#471272,black);
+	color: white;
+	padding: 20px 0;
+}
+
+footer .footer-left{
+	text-align: left;
+}
+
+footer .footer-left a{
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	margin: 12px 0;
+	color: white;
+}
+
+footer .footer-center img{
+	max-width: 300px;
+	margin: 10px 0;
+}
+
+footer .footer-right img:nth-of-type(1){
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+footer .footer-right p:nth-of-type(1){
+	font-weight: bold;
+	font-size: 16px;
+}
+
+footer .footer-right p.p-gray{
+	color: #9f9292;
+	font-weight: normal;
+}
+
+footer .footer-right .wraper-rigth{
+	display: inline-block;
+	text-align: right;
+	width: 50%;
+	margin-right: -4px;
+}
+
+footer .footer-right p{
+	margin: 5px 0;
+}
+
+footer .footer-right .wraper-rigth img{
+	max-width: 50px;
+	display: inline-block;
+}
+
+footer .footer-right .wraper-center{
+	width: 100%;
+}
+
+footer .footer-right .wraper-left{
+	display: inline-block;
+	width: 50%;
+}
+
+
+/***FINAL ARQUIVO INDEX***/
+
+@media screen and (max-width: 980px){
+
+	footer .footer-center img{
+		max-width: 240px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	footer{
+		text-align: center;
+	}
+	footer .flex-box{
+		flex-direction: column;
+	}
+	footer .footer-left{
+		text-align: center;
+	}
+	footer .w33{
+		width: 100%;
+	}
+	footer .footer-right .wraper-left{
+		text-align: left;
+	}
+	footer .footer-right .wraper-center{
+		max-width: 240px;
+		margin: 0 auto;
+	}
+	footer .footer-center img{
+		max-width: 240px;
+		margin: 10px auto;
+		display: block;
+	}
 }
