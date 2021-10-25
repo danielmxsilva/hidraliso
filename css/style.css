@@ -213,6 +213,339 @@ footer .footer-right .wraper-left{
 	max-width: 130px;
 }
 
+.depoimentos-resultados{
+	padding: 20px 0;
+	background-color: #C0C0C0;
+}
+
+.depoimentos-resultados h2{
+	text-align: center;
+	color: var(--roxo);
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.depoimentos-resultados .flex-box{
+	align-items: center;
+	padding: 10px 0;
+}
+
+.depoimentos-resultados .w50:nth-of-type(1){
+	width: 60%;
+}
+
+.depoimentos-resultados .w50:nth-of-type(2){
+	width: 40%;
+}
+
+.depoimentos-resultados p{
+	color: var(--rosa);
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.depoimentos-resultados .depoimento-single{
+	max-width: 500px;
+	text-align: center;
+}
+
+.depoimentos-resultados .img-depoimento-single{
+	text-align: center;
+}
+
+.box-resultados{
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.box-resultados .img-resultado-1,.img-resultado-3{
+	border-radius: 5px;
+	border: 5px solid var(--roxo);
+}
+
+.box-resultados .img-resultado-1,.img-resultado-2,.img-resultado-3{
+	max-width: 260px;
+	margin: 5px 0;
+}
+
+.box-resultados .img-resultado-1 img,.img-resultado-2 img,.img-resultado-3 img{
+	width: 100%;
+}
+
+.vantagens{
+	padding: 30px 0;
+	background: linear-gradient(#252327,#372C61);
+}
+
+.vantagens-header{
+	text-align: center;
+}
+
+.vantagens-header h2{
+	color: var(--rosa);
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.vantagens-header p{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.vantagens .w33{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.vantagens-conteudo{
+	padding: 10px 0;
+}
+
+.vantagens-single{
+	display: inline-block;
+	text-align: center;
+	width: 60%;
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px 10px 20px 10px;
+}
+
+.vantagens-single i{
+	font-size: 50px;
+	color: var(--rosa);
+}
+
+.vantagens-single h2{
+	padding: 3px 0;
+	color: var(--rosa);
+	font-size: 18px;
+}
+
+.vantagens-single p{
+	color: black;
+	font-size: 15px;
+	padding: 10px 0;
+}
+
+.quem-usa-aprova{
+	background-color: #C0C0C0;
+	padding: 20px 0;
+}
+
+.quem-usa-aprova .vantagens-header p{
+	color: black;
+}
+
+.box-video-wraper{
+	padding: 25px 0;
+	display: flex;
+}
+
+.video-single{
+	width: 33.3%;
+	padding: 10px;
+}
+
+.video-single video{
+	border-radius: 20px;
+	border: 5px solid var(--roxo);
+	max-width: 90%;
+}
+
+.kit-compra{
+	padding: 80px 0 20px 0;
+	background: linear-gradient(#382C5F,#04000F);
+}
+
+.kit-single-wraper{
+	text-align: center;
+	width: 33.3%;
+	align-items: center;
+	padding: 0 30px;
+}
+
+.kit-single-wraper h3{
+	color: var(--rosa);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.kit-single{
+	display: inline-block;
+	max-width: 260px;
+	width: 100%;
+	padding: 20px 10px 30px 10px;
+	background-color: white;
+	border-radius: 10px;
+	border: 3px solid var(--rosa);
+}
+
+.kit-img-single{
+	width: 100%;
+}
+
+.kit-img-single img{
+	max-width: 100%;
+	height: 200px;
+}
+
+.kit-single-wraper .btn-rosa{
+	margin-top: 10px;
+}
+
+.line-red{
+	position: relative;
+	top: -5px;
+	left: 70px;
+	display: inline-block;
+	background-color: var(--rosa);
+	width: 70px;
+	height: 3px;
+}
+
+.align-txt{
+	position: relative;
+	left: -70px;
+}
+
+.align-p{
+	width: 225px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-35%);
+}
+
+.kit-single p{
+	margin: 10px 0;
+}
+
+.kit-single .btn-rosa a{
+	box-shadow: 0px 0px 10px black;
+}
+
+.kit-single-wraper:nth-of-type(2) .kit-single{
+	background-color: var(--rosa);
+	color: white;
+}
+
+.kit-single-wraper:nth-of-type(2) .kit-single .btn-rosa a{
+	background-color: #00AA40;
+}
+
+.kit-compra .img-wraper-kit{
+	text-align: center;
+}
+
+.kit-single-wraper:nth-of-type(2){
+	position: relative;
+	top: -40px;
+}
+
+.img-wraper-kit{
+	margin-top: 20px;
+}
+
+.img-wraper-kit img{
+	width: 100%;
+	max-width: 500px;
+}
+
+section.garantia{
+	padding: 40px 0;
+}
+
+.garantia .flex-box{
+	align-items: center;
+}
+
+.garantia .img-wraper-garantia{
+	width: 30%;
+}
+
+.img-wraper-garantia img{
+	max-width: 100%;
+}
+
+.garantia .txt-wraper-garantia{
+	text-align: center;
+	width: 70%;
+}
+
+.garantia .txt-wraper-garantia h2{
+	color: var(--rosa);
+	font-weight: bold;
+	font-size: 24px;
+}
+
+
+.garantia .txt-wraper-garantia p{
+	margin: 20px 0;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.garantia-btn a{
+	background-color: #00B424;
+	font-size: 18px;
+	box-shadow: 0 0 10px black;
+}
+
+.section-faq{
+	background-color: var(--cinza);
+	padding: 20px 0;
+}
+
+.section-faq .vantagens-header{
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.section-faq .vantagens-header p{
+	color: black;
+}
+
+.wraper-faq{
+	max-width: 600px;
+	margin: 20px auto;
+	color: black;
+}
+
+.faq-single{
+	border-bottom: 1px solid #918f8f;
+}
+
+.faq-sinal{
+	color: var(--rosa);
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.faq-pergunta{
+	cursor: pointer;
+}
+
+.faq-pergunta h3{
+	color: #323232;
+	display: inline-block;
+	font-size: 19px;
+}
+
+.faq-resposta p{
+	padding-left: 25px;
+	color: #323232;
+	font-size: 15px;
+}
+
+.section-faq .btn-rosa{
+	display: block;
+	text-align: center;
+	margin: 40px 0;
+}
+
 /***FINAL PÁGINA HOME***/
 
 @media screen and (max-width: 980px){
@@ -220,11 +553,29 @@ footer .footer-right .wraper-left{
 	footer .footer-center img{
 		max-width: 240px;
 	}
+	.vantagens-single{
+		width: 80%;
+	}
 }
 
 @media screen and (max-width: 880px){
 	.home-header .w50:nth-of-type(1){
 		padding: 0;
+	}
+
+	.kit-compra .flex-box{
+		flex-direction: column;
+	}
+
+	.kit-single-wraper{
+		width: 100%;
+		align-items: center;
+	}
+
+	.kit-single-wraper:nth-of-type(2){
+		position: static;
+		top: 0;
+		margin: 30px 0;
 	}
 }
 
@@ -253,6 +604,32 @@ footer .footer-right .wraper-left{
 		margin: 10px auto;
 		display: block;
 	}
+
+	.depoimentos-resultados .flex-box{
+		flex-direction: column;
+	}
+
+	.depoimentos-resultados .w50:nth-of-type(1){
+		padding: 30px 0;
+	}
+
+	.depoimentos-resultados .w50{
+		width: 100% !important;
+	}
+
+	.vantagens .w33{
+		width: 50%;
+	}
+
+	.garantia .flex-box{
+		flex-direction: column;
+	}
+
+	.garantia .img-wraper-garantia{
+		text-align: center;
+		width: 50%;
+	}
+
 }
 
 @media screen and (max-width: 640px){
@@ -282,4 +659,14 @@ footer .footer-right .wraper-left{
 		text-align: center;
 	}
 
+	.btn-rosa a{
+		font-size: 22px;
+	}
+
+}
+
+@media screen and (max-width: 540px){
+	.vantagens .w33{
+		width: 100%;
+	}
 }
